@@ -1,20 +1,17 @@
-#headShotContainer{
-   
+
+
+#headShotContainer{  
     width:auto;
     margin-left: 5%;
     margin-right: 5%;
     margin-top:15px;
     margin-bottom: 15px;
-  
-
 }
-
-
 
 #Header{
     font-family: sans-serif, Arial, Helvetica;
     font-style: italic;
-    font-size: 100px;
+    font-size: 90px;
     text-shadow: 2px 2px 5px red;
 }
 
@@ -23,7 +20,10 @@ body {
   }
 
 .card{
+    width: 100%;
     box-shadow: 2px 2px 5px red;
+    margin-top: 10px;
+
 }
 
 #cardRow{
@@ -31,4 +31,32 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blue;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+ .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #navbar{
+    box-shadow: 2px 2px 5px red;
+  }
+@media screen and (max-width:1000px){
+    #Header{
+        font-family: sans-serif, Arial, Helvetica;
+        font-style: italic;
+        font-size: 50px;
+        text-shadow: 2px 2px 5px red;
+    }
+    
 }
